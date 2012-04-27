@@ -30,8 +30,7 @@ class Vim < Formula
     system "make"
     system "make install"
 
-	ln_s bin+"vim", "vi"
-	bin.install "vi"
-
+    ln_s bin+"vim", "vi"
+    bin.install "vi"
   end
 end
