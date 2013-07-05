@@ -1,6 +1,6 @@
 require 'formula'
 
-class Vim < Formula
+class VimBreakindent < Formula
   homepage 'http://www.vim.org/'
   # Get stable versions from hg repo instead of downloading an increasing
   # number of separate patches.
